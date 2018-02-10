@@ -145,6 +145,8 @@ int main(int argc, char *argv[])
 	// s = -0.125*s;
 	// s = s + 0.875;
 
+    // Assumes entire zone is porous
+
 	s=0.75;
 	m=1.0;
 	
