@@ -1,0 +1,2 @@
+porousScalarFoam.c
+EXE = $(FOAM_APPBIN)/porousScalarFoam
