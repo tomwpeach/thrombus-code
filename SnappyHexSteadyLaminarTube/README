@@ -1,0 +1,26 @@
+Procedure for creating an unstructured hex mesh from STL patches forming a closed geometry
+
+Confirm STLs are in Ascii format and each file is named as per the patch with appropriate header 
+and footer (solid inlet). Check scale is in m. <surfaceTransformPoints -scale '(0.001 0.001 
+0.001)' filenametoscale.stl newfile.stl> can be used. 
+
+Edit constant/polymesh/blockMeshDict to ensure bounding box encompasses geometry to mesh. 
+Define base-level mesh here also.
+
+Ensure STL patches that make up the watertight geometry are located in constant/triSurface and are
+correspondingly named in system/snappyHexMeshDict.
+Check other snappyHexMesh parameters including levels of local refinement, point inside the mesh etc.
+
+Run the ParallelMesh script in to create underlying mesh, refine, trim away unwanted half, and ressemble
+parallel components to /constant/polyMesh
+
+A log will be written to mesh_output.txt. Any areas concerning naming of blockMesh boundaries 
+(Xmin etc.) can be ignored.
+
+/constant/polyMesh/boundary will need to be edited to both remove the now defunct blockMesh boundaries 
+(Xmin) and to renumber the top of the file to the total boundaries now remaining. Names of the current 
+boundary patches may need to be corrected from inlet_inlet to inlet
+
+Processor files can be deleted.
+
+The case may then be run.
