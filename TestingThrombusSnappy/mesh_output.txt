@@ -1,0 +1,507 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.1-221db2718bbb
+Exec   : decomposePar
+Date   : Apr 10 2018
+Time   : 13:16:46
+Host   : "tom-VirtualBox"
+PID    : 3271
+Case   : /home/tom/GitHub/thrombus-code/TestingThrombusSnappy
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod simple
+
+Finished decomposition in 0.17 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 12000
+    Number of faces shared with processor 1 = 600
+    Number of faces shared with processor 2 = 600
+    Number of faces shared with processor 4 = 400
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 1
+    Number of cells = 12000
+    Number of faces shared with processor 0 = 600
+    Number of faces shared with processor 3 = 600
+    Number of faces shared with processor 5 = 400
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 2
+    Number of cells = 12000
+    Number of faces shared with processor 0 = 600
+    Number of faces shared with processor 3 = 600
+    Number of faces shared with processor 6 = 400
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 3
+    Number of cells = 12000
+    Number of faces shared with processor 1 = 600
+    Number of faces shared with processor 2 = 600
+    Number of faces shared with processor 7 = 400
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 4
+    Number of cells = 12000
+    Number of faces shared with processor 0 = 400
+    Number of faces shared with processor 5 = 600
+    Number of faces shared with processor 6 = 600
+    Number of faces shared with processor 8 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 5
+    Number of cells = 12000
+    Number of faces shared with processor 1 = 400
+    Number of faces shared with processor 4 = 600
+    Number of faces shared with processor 7 = 600
+    Number of faces shared with processor 9 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 6
+    Number of cells = 12000
+    Number of faces shared with processor 2 = 400
+    Number of faces shared with processor 4 = 600
+    Number of faces shared with processor 7 = 600
+    Number of faces shared with processor 10 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 7
+    Number of cells = 12000
+    Number of faces shared with processor 3 = 400
+    Number of faces shared with processor 5 = 600
+    Number of faces shared with processor 6 = 600
+    Number of faces shared with processor 11 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 8
+    Number of cells = 12000
+    Number of faces shared with processor 4 = 400
+    Number of faces shared with processor 9 = 600
+    Number of faces shared with processor 10 = 600
+    Number of faces shared with processor 12 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 9
+    Number of cells = 12000
+    Number of faces shared with processor 5 = 400
+    Number of faces shared with processor 8 = 600
+    Number of faces shared with processor 11 = 600
+    Number of faces shared with processor 13 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 10
+    Number of cells = 12000
+    Number of faces shared with processor 6 = 400
+    Number of faces shared with processor 8 = 600
+    Number of faces shared with processor 11 = 600
+    Number of faces shared with processor 14 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 11
+    Number of cells = 12000
+    Number of faces shared with processor 7 = 400
+    Number of faces shared with processor 9 = 600
+    Number of faces shared with processor 10 = 600
+    Number of faces shared with processor 15 = 400
+    Number of processor patches = 4
+    Number of processor faces = 2000
+    Number of boundary faces = 1200
+
+Processor 12
+    Number of cells = 12000
+    Number of faces shared with processor 8 = 400
+    Number of faces shared with processor 13 = 600
+    Number of faces shared with processor 14 = 600
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 13
+    Number of cells = 12000
+    Number of faces shared with processor 9 = 400
+    Number of faces shared with processor 12 = 600
+    Number of faces shared with processor 15 = 600
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 14
+    Number of cells = 12000
+    Number of faces shared with processor 10 = 400
+    Number of faces shared with processor 12 = 600
+    Number of faces shared with processor 15 = 600
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Processor 15
+    Number of cells = 12000
+    Number of faces shared with processor 11 = 400
+    Number of faces shared with processor 13 = 600
+    Number of faces shared with processor 14 = 600
+    Number of processor patches = 3
+    Number of processor faces = 1600
+    Number of boundary faces = 1600
+
+Number of processor faces = 14400
+Max number of cells = 12000 (0% above average 12000)
+Max number of processor patches = 4 (14.28571428571429% above average 3.5)
+Max number of faces between processors = 2000 (11.11111111111111% above average 1800)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+Processor 2: field transfer
+Processor 3: field transfer
+Processor 4: field transfer
+Processor 5: field transfer
+Processor 6: field transfer
+Processor 7: field transfer
+Processor 8: field transfer
+Processor 9: field transfer
+Processor 10: field transfer
+Processor 11: field transfer
+Processor 12: field transfer
+Processor 13: field transfer
+Processor 14: field transfer
+Processor 15: field transfer
+
+End.
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.1-221db2718bbb
+Exec   : snappyHexMesh -overwrite -parallel
+Date   : Apr 10 2018
+Time   : 13:16:50
+Host   : "tom-VirtualBox"
+PID    : 3275
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.1-221db2718bbb
+Exec   : reconstructParMesh -constant
+Date   : Apr 10 2018
+Time   : 13:16:50
+Host   : "tom-VirtualBox"
+PID    : 3279
+Case   : /home/tom/GitHub/thrombus-code/TestingThrombusSnappy
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+This is an experimental tool which tries to merge individual processor
+meshes back into one master mesh. Use it if the original master mesh has
+been deleted or if the processor meshes have been modified (topology change).
+This tool will write the resulting mesh to a new time step and construct
+xxxxProcAddressing files in the processor meshes so reconstructPar can be
+used to regenerate the fields on the master mesh.
+
+Not well tested & use at your own risk!
+
+Merge tolerance : 1e-07
+Write tolerance : 1e-16
+Doing geometric matching on correct procBoundaries only.
+This assumes a correct decomposition.
+Found 16 processor directories
+
+Reading database "TestingThrombusSnappy/processor0"
+Reading database "TestingThrombusSnappy/processor1"
+Reading database "TestingThrombusSnappy/processor2"
+Reading database "TestingThrombusSnappy/processor3"
+Reading database "TestingThrombusSnappy/processor4"
+Reading database "TestingThrombusSnappy/processor5"
+Reading database "TestingThrombusSnappy/processor6"
+Reading database "TestingThrombusSnappy/processor7"
+Reading database "TestingThrombusSnappy/processor8"
+Reading database "TestingThrombusSnappy/processor9"
+Reading database "TestingThrombusSnappy/processor10"
+Reading database "TestingThrombusSnappy/processor11"
+Reading database "TestingThrombusSnappy/processor12"
+Reading database "TestingThrombusSnappy/processor13"
+Reading database "TestingThrombusSnappy/processor14"
+Reading database "TestingThrombusSnappy/processor15"
+Setting master time to constant
+
+Reading points from "TestingThrombusSnappy/processor0" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor1" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor2" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor3" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor4" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor5" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor6" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor7" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor8" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor9" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor10" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor11" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor12" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor13" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor14" for time = constant
+
+Reading points from "TestingThrombusSnappy/processor15" for time = constant
+
+Overall mesh bounding box  : (-0.002 -0.002 -0.001) (0.002 0.002 0.011)
+Relative tolerance         : 1e-07
+Absolute matching distance : 1.32664991614216e-09
+
+Constructing empty mesh to add to.
+
+Reading mesh to add from "TestingThrombusSnappy/processor0" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor1" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor2" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor3" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor4" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor5" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor6" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor7" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor8" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor9" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor10" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor11" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor12" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor13" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor14" for time = constant
+
+Adding to master mesh
+
+
+Reading mesh to add from "TestingThrombusSnappy/processor15" for time = constant
+
+Adding to master mesh
+
+
+mergeSharedPoints : detected 0 points that are to be merged.
+
+Writing merged mesh to "/home/tom/GitHub/thrombus-code/TestingThrombusSnappy/constant"
+
+Reconstructing the addressing from the processor meshes to the newly reconstructed mesh
+
+Reading processor 0 mesh from "TestingThrombusSnappy/processor0"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor0/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor0/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor0/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor0/constant/polyMesh"
+
+Reading processor 1 mesh from "TestingThrombusSnappy/processor1"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor1/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor1/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor1/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor1/constant/polyMesh"
+
+Reading processor 2 mesh from "TestingThrombusSnappy/processor2"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor2/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor2/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor2/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor2/constant/polyMesh"
+
+Reading processor 3 mesh from "TestingThrombusSnappy/processor3"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor3/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor3/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor3/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor3/constant/polyMesh"
+
+Reading processor 4 mesh from "TestingThrombusSnappy/processor4"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor4/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor4/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor4/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor4/constant/polyMesh"
+
+Reading processor 5 mesh from "TestingThrombusSnappy/processor5"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor5/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor5/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor5/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor5/constant/polyMesh"
+
+Reading processor 6 mesh from "TestingThrombusSnappy/processor6"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor6/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor6/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor6/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor6/constant/polyMesh"
+
+Reading processor 7 mesh from "TestingThrombusSnappy/processor7"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor7/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor7/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor7/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor7/constant/polyMesh"
+
+Reading processor 8 mesh from "TestingThrombusSnappy/processor8"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor8/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor8/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor8/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor8/constant/polyMesh"
+
+Reading processor 9 mesh from "TestingThrombusSnappy/processor9"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor9/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor9/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor9/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor9/constant/polyMesh"
+
+Reading processor 10 mesh from "TestingThrombusSnappy/processor10"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor10/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor10/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor10/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor10/constant/polyMesh"
+
+Reading processor 11 mesh from "TestingThrombusSnappy/processor11"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor11/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor11/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor11/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor11/constant/polyMesh"
+
+Reading processor 12 mesh from "TestingThrombusSnappy/processor12"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor12/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor12/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor12/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor12/constant/polyMesh"
+
+Reading processor 13 mesh from "TestingThrombusSnappy/processor13"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor13/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor13/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor13/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor13/constant/polyMesh"
+
+Reading processor 14 mesh from "TestingThrombusSnappy/processor14"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor14/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor14/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor14/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor14/constant/polyMesh"
+
+Reading processor 15 mesh from "TestingThrombusSnappy/processor15"
+Writing pointProcAddressing to "TestingThrombusSnappy/processor15/constant/polyMesh"
+Writing faceProcAddressing to "TestingThrombusSnappy/processor15/constant/polyMesh"
+Writing cellProcAddressing to "TestingThrombusSnappy/processor15/constant/polyMesh"
+Writing boundaryProcAddressing to "TestingThrombusSnappy/processor15/constant/polyMesh"
+
+End.
+
