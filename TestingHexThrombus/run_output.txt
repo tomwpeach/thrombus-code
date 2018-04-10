@@ -1,0 +1,297 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.1-221db2718bbb
+Exec   : decomposePar
+Date   : Apr 10 2018
+Time   : 14:31:45
+Host   : "tom-VirtualBox"
+PID    : 4456
+Case   : /home/tom/GitHub/thrombus-code/TestingHexThrombus
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod simple
+
+Finished decomposition in 0.14 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 10343
+    Number of faces shared with processor 1 = 471
+    Number of faces shared with processor 2 = 471
+    Number of faces shared with processor 4 = 551
+    Number of processor patches = 3
+    Number of processor faces = 1493
+    Number of boundary faces = 4675
+
+Processor 1
+    Number of cells = 10233
+    Number of faces shared with processor 0 = 471
+    Number of faces shared with processor 3 = 469
+    Number of faces shared with processor 5 = 469
+    Number of processor patches = 3
+    Number of processor faces = 1409
+    Number of boundary faces = 4589
+
+Processor 2
+    Number of cells = 10233
+    Number of faces shared with processor 0 = 471
+    Number of faces shared with processor 3 = 469
+    Number of faces shared with processor 6 = 469
+    Number of processor patches = 3
+    Number of processor faces = 1409
+    Number of boundary faces = 4589
+
+Processor 3
+    Number of cells = 10179
+    Number of faces shared with processor 1 = 469
+    Number of faces shared with processor 2 = 469
+    Number of faces shared with processor 7 = 435
+    Number of processor patches = 3
+    Number of processor faces = 1373
+    Number of boundary faces = 4555
+
+Processor 4
+    Number of cells = 10154
+    Number of faces shared with processor 0 = 551
+    Number of faces shared with processor 5 = 349
+    Number of faces shared with processor 6 = 349
+    Number of faces shared with processor 8 = 295
+    Number of processor patches = 4
+    Number of processor faces = 1544
+    Number of boundary faces = 4876
+
+Processor 5
+    Number of cells = 10260
+    Number of faces shared with processor 1 = 469
+    Number of faces shared with processor 4 = 349
+    Number of faces shared with processor 7 = 351
+    Number of faces shared with processor 9 = 295
+    Number of processor patches = 4
+    Number of processor faces = 1464
+    Number of boundary faces = 4954
+
+Processor 6
+    Number of cells = 10260
+    Number of faces shared with processor 2 = 469
+    Number of faces shared with processor 4 = 349
+    Number of faces shared with processor 7 = 351
+    Number of faces shared with processor 10 = 295
+    Number of processor patches = 4
+    Number of processor faces = 1464
+    Number of boundary faces = 4954
+
+Processor 7
+    Number of cells = 10314
+    Number of faces shared with processor 3 = 435
+    Number of faces shared with processor 5 = 351
+    Number of faces shared with processor 6 = 351
+    Number of faces shared with processor 11 = 295
+    Number of processor patches = 4
+    Number of processor faces = 1432
+    Number of boundary faces = 4988
+
+Processor 8
+    Number of cells = 10300
+    Number of faces shared with processor 4 = 295
+    Number of faces shared with processor 9 = 576
+    Number of faces shared with processor 10 = 576
+    Number of faces shared with processor 12 = 295
+    Number of processor patches = 4
+    Number of processor faces = 1742
+    Number of boundary faces = 3832
+
+Processor 9
+    Number of cells = 10266
+    Number of faces shared with processor 5 = 295
+    Number of faces shared with processor 8 = 576
+    Number of faces shared with processor 11 = 566
+    Number of faces shared with processor 13 = 309
+    Number of faces shared with processor 15 = 1
+    Number of processor patches = 5
+    Number of processor faces = 1747
+    Number of boundary faces = 3840
+
+Processor 10
+    Number of cells = 10266
+    Number of faces shared with processor 6 = 295
+    Number of faces shared with processor 8 = 576
+    Number of faces shared with processor 11 = 566
+    Number of faces shared with processor 14 = 309
+    Number of faces shared with processor 15 = 1
+    Number of processor patches = 5
+    Number of processor faces = 1747
+    Number of boundary faces = 3840
+
+Processor 11
+    Number of cells = 10156
+    Number of faces shared with processor 7 = 295
+    Number of faces shared with processor 9 = 566
+    Number of faces shared with processor 10 = 566
+    Number of faces shared with processor 15 = 303
+    Number of processor patches = 4
+    Number of processor faces = 1730
+    Number of boundary faces = 3840
+
+Processor 12
+    Number of cells = 10191
+    Number of faces shared with processor 8 = 295
+    Number of faces shared with processor 13 = 548
+    Number of faces shared with processor 14 = 548
+    Number of processor patches = 3
+    Number of processor faces = 1391
+    Number of boundary faces = 4127
+
+Processor 13
+    Number of cells = 10229
+    Number of faces shared with processor 9 = 309
+    Number of faces shared with processor 12 = 548
+    Number of faces shared with processor 15 = 557
+    Number of processor patches = 3
+    Number of processor faces = 1414
+    Number of boundary faces = 4127
+
+Processor 14
+    Number of cells = 10229
+    Number of faces shared with processor 10 = 309
+    Number of faces shared with processor 12 = 548
+    Number of faces shared with processor 15 = 557
+    Number of processor patches = 3
+    Number of processor faces = 1414
+    Number of boundary faces = 4127
+
+Processor 15
+    Number of cells = 10339
+    Number of faces shared with processor 9 = 1
+    Number of faces shared with processor 10 = 1
+    Number of faces shared with processor 11 = 303
+    Number of faces shared with processor 13 = 557
+    Number of faces shared with processor 14 = 557
+    Number of processor patches = 5
+    Number of processor faces = 1419
+    Number of boundary faces = 4127
+
+Number of processor faces = 12096
+Max number of cells = 10343 (0.93686% above average 10247)
+Max number of processor patches = 5 (33.3333% above average 3.75)
+Max number of faces between processors = 1747 (15.5423% above average 1512)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+Processor 2: field transfer
+Processor 3: field transfer
+Processor 4: field transfer
+Processor 5: field transfer
+Processor 6: field transfer
+Processor 7: field transfer
+Processor 8: field transfer
+Processor 9: field transfer
+Processor 10: field transfer
+Processor 11: field transfer
+Processor 12: field transfer
+Processor 13: field transfer
+Processor 14: field transfer
+Processor 15: field transfer
+
+End.
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.1-221db2718bbb
+Exec   : simpleFoam -parallel
+Date   : Apr 10 2018
+Time   : 14:31:49
+Host   : "tom-VirtualBox"
+PID    : 4460
+Case   : /home/tom/GitHub/thrombus-code/TestingHexThrombus
+nProcs : 16
+Slaves : 
+15
+(
+"tom-VirtualBox.4461"
+"tom-VirtualBox.4462"
+"tom-VirtualBox.4463"
+"tom-VirtualBox.4464"
+"tom-VirtualBox.4465"
+"tom-VirtualBox.4466"
+"tom-VirtualBox.4467"
+"tom-VirtualBox.4468"
+"tom-VirtualBox.4469"
+"tom-VirtualBox.4470"
+"tom-VirtualBox.4471"
+"tom-VirtualBox.4472"
+"tom-VirtualBox.4473"
+"tom-VirtualBox.4474"
+"tom-VirtualBox.4475"
+)
+
+Pstream initialized with:
+    floatTransfer     : 0
+    nProcsSimpleSum   : 0
+    commsType         : nonBlocking
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.1-221db2718bbb
+Exec   : reconstructPar
+Date   : Apr 10 2018
+Time   : 14:31:50
+Host   : "tom-VirtualBox"
+PID    : 4476
+Case   : /home/tom/GitHub/thrombus-code/TestingHexThrombus
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
