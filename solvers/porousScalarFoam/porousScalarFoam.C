@@ -136,19 +136,19 @@ int main(int argc, char *argv[])
 	// Determine the permeability of the different cells based on thrombin concentration creating matrix of 0 and k
 	// Porosity in clot region is 0.75. 0.875 halfway between 0.75 (clot region) and 1.0 (fluid region)
 
-	// s = ThCrit;	
-	// s = Th-s;
-	// s = sign(s);
+	s = ThCrit;	
+	s = Th-s;
+	s = sign(s);
 
-	// m = 0.5*(s+1.0);
+	m = 0.5*(s+1.0);
 
-	// s = -0.125*s;
-	// s = s + 0.875;
+	s = -0.125*s;
+	s = s + 0.875;
 
     // Assumes entire zone is porous
 
-	s=0.75;
-	m=1.0;
+	// s=0.75;
+	// m=1.0;
 	
         
 	runTime.write();
